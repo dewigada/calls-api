@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 facebook-business = "*"
 python-dotenv = "*"
+google-ads = "*"
 
 [dev-packages]
 

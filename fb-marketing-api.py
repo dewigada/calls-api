@@ -19,7 +19,6 @@ access_token = os.getenv('ACCESS_TOKEN')
 app_secret = os.getenv('APP_SECRET')
 app_id = os.getenv('APP_ID')
 id = os.getenv('AD_ACCOUNT_ID')
-
 FacebookAdsApi.init(access_token=access_token)
 
 fields = [
