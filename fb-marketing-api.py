@@ -3,8 +3,8 @@
 # https://stackoverflow.com/questions/54846532/where-does-pipenv-install-packages
 # /home/gada/.local/share/virtualenvs/calls-api-3BrbH1zm/lib/python3.8/site-packages
 import sys
-sys.path.append('/home/gada/.local/share/virtualenvs/calls-api-3BrbH1zm/lib/python3.8/site-packages') # Replace this with the place you installed facebookads using pip
-sys.path.append('/home/gada/.local/share/virtualenvs/calls-api-3BrbH1zm/lib/python3.8/site-packages/facebook_business-12.0.1.dist-info') # same as above
+sys.path.append('/home/gada/.local/share/virtualenvs/calls-api-3BrbH1zm/lib/python3.9/site-packages') # Replace this with the place you installed facebookads using pip
+sys.path.append('/home/gada/.local/share/virtualenvs/calls-api-3BrbH1zm/lib/python3.9/site-packages/facebook_business-12.0.1.dist-info') # same as above
 
 from facebook_business.adobjects.adaccount import AdAccount
 from facebook_business.adobjects.campaign import Campaign
